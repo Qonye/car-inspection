@@ -1,0 +1,37 @@
+{
+  "name": "car-inspection",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@headlessui/react": "^2.0.0",
+    "@heroicons/react": "^2.2.0",
+    "car-inspection": "file:",
+    "dotenv": "^16.4.7",
+    "googleapis": "^146.0.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.1",
+    "next": "14.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.23",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
